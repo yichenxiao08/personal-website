@@ -1,0 +1,26 @@
+import "./About.css";
+
+export default function About() {
+  return (
+    <section className="about" id="about">
+      <div className="section-head">
+        <span className="tag">01</span>
+        <h2>About</h2>
+      </div>
+      <div className="about-grid">
+        <img className="about-photo" />
+        <div className="about-text">
+          <p>
+            I'm a first year student studying computer engineering at the University of
+            Waterloo, driven by a passion for ____.
+          </p>
+          <p>?? something here</p>
+          <p>
+            In my free time, I enjoy playing the piano, fencing, watching
+            sports, and working on _??
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,31 @@
+.about{
+  padding: 110px 0;
+  border-top: 1px solid var(--line);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 48px;
+}
+
+@media (max-width: 700px){
+  .about-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-photo{
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  background: repeating-linear-gradient(135deg, var(--accent-soft) 0 10px, var(--paper-dim) 10px 20px);
+  border: 1px solid var(--line);
+}
+
+.about-text p{
+  font-size: 17px;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+  max-width: 560px;
+}

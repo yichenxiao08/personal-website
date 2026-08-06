@@ -1,0 +1,10 @@
+.projects{
+  padding: 110px 0;
+  border-top: 1px solid var(--line);
+}
+
+.projects-portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px
+}
