@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 body {
@@ -47,26 +48,26 @@ a {
   border-radius: 4px;
 }
 
-.wrap{
+.wrap {
   max-width: 920px;
   margin: 0 auto;
   padding: 0 28px;
 }
-.section-head{
-  display:flex;
+.section-head {
+  display: flex;
   align-items: baseline;
   gap: 14px;
-  margin-bottom: 52px; 
+  margin-bottom: 52px;
 }
 
-.section-head .tag{
+.section-head .tag {
   font-family: var(--mono);
   font-size: 12px;
   color: var(--accent);
   letter-spacing: 0.06em;
 }
 
-.section-head h2{
+.section-head h2 {
   font-family: var(--serif);
   font-size: 32px;
   font-weight: 600;

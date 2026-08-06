@@ -1,10 +1,83 @@
-.projects{
+.projects {
   padding: 110px 0;
   border-top: 1px solid var(--line);
 }
 
-.projects-portfolio{
+.project-portfolio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 22px
+  gap: 22px;
+}
+
+@media (max-width: 700px) {
+  .project-portfolio {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px;
+  background: var(--paper-dim);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card h3 {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.project-card h4 {
+  font-family: var(--sans);
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-weight: 300;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.project-card p {
+  font-size: 14.5px;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+
+.project-card .card-links {
+  display: flex;
+  gap: 16px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  justify-content: end;
+  margin-top: auto;
+}
+
+.project-card .card-links a {
+  color: var(--link);
+  border-bottom: 1px solid var(--ink-faint);
+}
+
+.project-card .card-links a:hover {
+  border-color: var(--ink);
+}
+
+.project-card .project-photo {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 16px;
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  background: repeating-linear-gradient(
+    135deg,
+    var(--accent-soft) 0 10px,
+    var(--paper-dim) 10px 20px
+  );
+  border: 1px solid var(--line);
 }

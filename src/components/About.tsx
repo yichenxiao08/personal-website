@@ -11,8 +11,8 @@ export default function About() {
         <img className="about-photo" />
         <div className="about-text">
           <p>
-            I'm a first year student studying computer engineering at the University of
-            Waterloo, driven by a passion for ____.
+            I'm a first year student studying computer engineering at the
+            University of Waterloo, driven by a passion for ____.
           </p>
           <p>?? something here</p>
           <p>
