@@ -50,7 +50,7 @@ export default function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="section-head">
-        <span className="tag">02</span>
+        <span className="tag">03</span>
         <h2>Projects</h2>
       </div>
       <div className="project-portfolio">

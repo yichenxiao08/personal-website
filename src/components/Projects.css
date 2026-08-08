@@ -1,5 +1,5 @@
 .projects {
-  padding: 110px 0;
+  padding: 80px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -31,7 +31,7 @@
 .project-card h3 {
   font-family: var(--serif);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 4px;
 }
 

@@ -9,7 +9,7 @@
   --line: rgba(23, 24, 27, 0.14);
   --radius: 14px;
   --serif: "Fraunces", serif;
-  --sans: "Inter", sans-serif;
+  --sans: "IBM Plex Sans", sans-serif;
   --mono: "IBM Plex Mono", monospace;
 }
 
@@ -62,13 +62,13 @@ a {
 
 .section-head .tag {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--accent);
   letter-spacing: 0.06em;
 }
 
 .section-head h2 {
   font-family: var(--serif);
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 600;
 }

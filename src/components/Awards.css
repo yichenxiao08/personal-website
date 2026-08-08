@@ -1,0 +1,28 @@
+.awards {
+  padding: 80px 0;
+  border-top: 1px solid var(--line);
+}
+
+.awards-section {
+  margin-bottom: 30px;
+}
+
+.awards-section h3 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.awards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.awards-list li {
+  position: relative;
+  font-size: 17px;
+  color: var(--ink-soft);
+}
