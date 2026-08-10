@@ -17,7 +17,7 @@ const projects: Project[] = [
   {
     title: "Checkmate",
     stack: "C++",
-    imageUrl: "a",
+    imageUrl: "/images/checkmate.png",
     description:
       "2500+ ELO chess engine written in C++, live 24/7 on Lichess for anyone to challenge. Implements minimax search with alpha-beta pruning, custom neural network based evaluation, and perfect hashing techniques for optimization.",
     links: [
@@ -34,7 +34,7 @@ const projects: Project[] = [
   {
     title: "King of the Ring",
     stack: "HTML/CSS, Javascript, Three.js",
-    imageUrl: "f",
+    imageUrl: "/images/kingofthering.png",
     description:
       "Motion-controlled boxing game using smartphone sensors. Real-time multiplayer via WebSockets with a 3D split-screen arena built using Three.js. 1st place at EurekaHacks 2026.",
     links: [
@@ -68,7 +68,7 @@ const projects: Project[] = [
   {
     title: "Blockblast",
     stack: "Java",
-    imageUrl: "f",
+    imageUrl: "/images/blockblast.png",
     description:
       "Clone of mobile video game Blockblast, implementing graphics and drag-and-drop effects from scratch. Grade 12 Computer Science Culminating Task (100%).",
     links: [

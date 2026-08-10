@@ -5,18 +5,68 @@
 
 .contact-info {
   padding: 0 24px;
-  list-style: circle;
+  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
 .contact-info li {
+  position: relative;
+  padding-left: 20px;
   font-family: var(--mono);
   color: var(--ink-soft);
   font-size: 17px;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
 }
 
+.contact-info li {
+  position: relative;
+  padding-left: 20px;
+  width: fit-content;
+}
+
+.contact-info li::before {
+  content: "○";
+  position: absolute;
+  left: 0;
+  color: var(--ink-faint);
+  transition: color 0.2s ease;
+}
+
+.contact-info li:hover {
+  color: var(--ink);
+  transform: translateY(-1px);
+}
+
+.contact-info li:hover::before {
+  content: "●";
+  color: var(--accent);
+}
+
+.contact-info a {
+  display: inline-block;
+  position: relative;
+}
+
+.contact-info a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.contact-info li:hover a::after {
+  transform: scaleX(1);
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -45,7 +95,7 @@
     transform 0.2s ease;
 }
 
-.footer button:hover{
+.footer button:hover {
   background: var(--accent);
   color: var(--paper);
   transform: translateY(-1px);
