@@ -8,13 +8,21 @@ export default function About() {
         <h2>About</h2>
       </div>
       <div className="about-grid">
-        <img className="about-photo" />
+        <div className="about-photo">
+          <img src="/images/banner.png" />
+        </div>
         <div className="about-text">
           <p>
             I'm a first year student studying computer engineering at the
-            University of Waterloo, driven by a passion for building: for people, for .
+            University of Waterloo, driven by a passion for building meaningful
+            systems that benefit others.
           </p>
-          <p>I've always been obsessed with tech, from tinkering with Raspberry Pi circuits when I was 8 to competing in high school robotics on the world stage. </p>
+          <p>
+            I've always been obsessed with tech, from tinkering with Raspberry
+            Pi circuits when I was 8 to designing world championship caliber
+            competition robots. Now, I strive to channel that same energy and
+            curiosity into creating elegant solutions to problems worth solving.
+          </p>
           <p>
             In my free time, I enjoy playing the piano, fencing, watching
             sports, and working on some sick side projects.
