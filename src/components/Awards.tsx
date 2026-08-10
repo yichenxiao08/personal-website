@@ -30,7 +30,6 @@ export default function Awards() {
           <li>3x Euclid Certificate of Distinction (2024-2026)</li>
           <li>2x CSMC Certificate of Distinction (2024, 2025)</li>
           <li>4x COMC Certificate of Distinction (2022-2025)</li>
-          <li>Qualified for VEX Robotics World Championship (2025, 2026)</li>
         </ul>
       </div>
       <div className="awards-section">
@@ -44,7 +43,7 @@ export default function Awards() {
             Achievement (2023)
           </li>
           <li>USA Fencing Association Divison I Athlete (2024-2026)</li>
-          <li>Ontario Provincial Championship Gold Medalist (2023)</li>
+          <li>Ontario Fencing Association Provincial Championship Gold Medalist (2023)</li>
         </ul>
       </div>
     </section>

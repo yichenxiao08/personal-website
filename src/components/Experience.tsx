@@ -40,7 +40,9 @@ export default function Experience() {
             <h3>VEX Robotics</h3>
             <h4>Teams 82855S & 82855X</h4>
             <p>
-              Captained .
+              Captained a 9-member competitive robotics team, organizing meetings and leading the
+              engineering design process from CAD and mechanical assembly
+              to testing and coding autonomous routines.
             </p>
           </div>
         </li>
@@ -63,7 +65,8 @@ export default function Experience() {
             <h3>Freelance Tutoring</h3>
             <h4></h4>
             <p>
-              Tutored students from grade 5-12, covering various subjects including math, physics, English, and music. 
+              Tutored students from grade 5-12, covering various subjects
+              including math, physics, English, and music.
             </p>
           </div>
         </li>

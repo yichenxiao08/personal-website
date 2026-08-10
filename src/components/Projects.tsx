@@ -19,11 +19,15 @@ const projects: Project[] = [
     stack: "C++",
     imageUrl: "a",
     description:
-      "2500+ ELO chess engine written in C++, live 24/7 on Lichess for anyone to challenge. Implements minimax search with alpha-beta pruning, neural network based evaluation, and Zobrist hashing techniques for optimization.",
+      "2500+ ELO chess engine written in C++, live 24/7 on Lichess for anyone to challenge. Implements minimax search with alpha-beta pruning, custom neural network based evaluation, and perfect hashing techniques for optimization.",
     links: [
       {
         text: "Github",
         url: "https://github.com/yichenxiao08/checkmate",
+      },
+      {
+        text: "Lichess",
+        url: "https://lichess.org/@/sixseven08",
       },
     ],
   },
@@ -41,6 +45,36 @@ const projects: Project[] = [
       {
         text: "Devpost",
         url: "https://devpost.com/software/king-of-the-ring",
+      },
+    ],
+  },
+  {
+    title: "Modular RL Environments",
+    stack: "Python",
+    imageUrl: "f",
+    description:
+      "Various reinforcement learning environments built from scratch, training agents to play Gridworld, Snake, and Flappy Bird, as well as training a Mujoco robot to walk.",
+    links: [
+      {
+        text: "Github",
+        url: "https://github.com/yichenxiao08/rlenv",
+      },
+      {
+        text: "Demo",
+        url: "",
+      },
+    ],
+  },
+  {
+    title: "Blockblast",
+    stack: "Java",
+    imageUrl: "f",
+    description:
+      "Clone of mobile video game Blockblast, implementing graphics and drag-and-drop effects from scratch. Grade 12 Computer Science Culminating Task (100%).",
+    links: [
+      {
+        text: "Github",
+        url: "https://github.com/yichenxiao08/blockblast",
       },
     ],
   },
