@@ -13,8 +13,7 @@ const experiences: Experience[] = [
     subtitle: "Full Stack Web Developer",
     description:
       "Built a data management portal for the school athletic department using Next.js and Supabase, tracking team rosters, athlete performance, and payment collection for 1600+ students across 32 teams.",
-    logoUrl:
-      "/logos/stlchs.png",
+    logoUrl: "/logos/stlchs.png",
   },
   {
     title: "Algorithm Alchemists",
@@ -25,9 +24,9 @@ const experiences: Experience[] = [
   },
   {
     title: "VEX Robotics",
-    subtitle: "Teams 82855S & 82855X",
+    subtitle: "Teams 82855S, 82855X, and 82855Z",
     description:
-      "Captained a 9-member competitive robotics team, organizing meetings and leading the engineering design process from CAD and mechanical assembly to testing and coding autonomous routines.",
+      "Captain of team 82855S, leading a 9-member team through CAD, mechanical assembly, iterating/testing, and autonomous coding. Built and coded for teams 82855X and 82855Z.",
     logoUrl: "/logos/vexlogo.png",
   },
   {
@@ -36,7 +35,7 @@ const experiences: Experience[] = [
     description:
       "Managed a $20K+ budget, coordinating with sponsors to secure funding. Designed lesson plans covering fundamentals for coding in robotics, including C++, control theory and localization algorithms.",
     logoUrl: "/logos/lionsrobotics.png",
-  }
+  },
 ];
 
 export default function Experience() {

@@ -33,11 +33,11 @@ export default function Awards() {
         </ul>
       </div>
       <div className="awards-section">
-        <h3>Miscellaneous</h3>
+        <h3>Also...</h3>
         <ul className="awards-list">
           <li>Associate Diploma in Piano Performance (2023)</li>
-          <li>3x Ontario Provincial Open Division Finalist (2023-2025)</li>
-          <li>Toronto Kiwanis Music Festival Best of Open Class (2024)</li>
+          <li>3x Ontario Provincial Piano Open Division Finalist (2023-2025)</li>
+          <li>Toronto Kiwanis Music Festival Best of Piano Open Class (2024)</li>
           <li>
             The City of Markham Mayor's Award for Yip's Music Festival Top
             Achievement (2023)

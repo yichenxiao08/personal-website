@@ -20,7 +20,7 @@ export default function Contact(){
           <a href="https://github.com/yichenxiao08" target='_blank'>Github</a>
         </li>
         <li>
-          <a href="" target="_blank">Resume</a>
+          <a href="/resume.pdf" target="_blank">Resume</a>
         </li>
       </ul>
       <div className="footer">

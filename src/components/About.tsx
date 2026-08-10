@@ -12,12 +12,12 @@ export default function About() {
         <div className="about-text">
           <p>
             I'm a first year student studying computer engineering at the
-            University of Waterloo, driven by a passion for ____.
+            University of Waterloo, driven by a passion for building: for people, for .
           </p>
-          <p>?? something here</p>
+          <p>I've always been obsessed with tech, from tinkering with Raspberry Pi circuits when I was 8 to competing in high school robotics on the world stage. </p>
           <p>
             In my free time, I enjoy playing the piano, fencing, watching
-            sports, and working on _??
+            sports, and working on some sick side projects.
           </p>
         </div>
       </div>

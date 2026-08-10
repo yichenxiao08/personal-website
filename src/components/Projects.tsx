@@ -51,7 +51,7 @@ const projects: Project[] = [
   {
     title: "Modular RL Environments",
     stack: "Python",
-    imageUrl: "f",
+    imageUrl: "/images/rlenv.png",
     description:
       "Various reinforcement learning environments built from scratch, training agents to play Gridworld, Snake, and Flappy Bird, as well as training a Mujoco robot to walk.",
     links: [
