@@ -1,75 +1,19 @@
-# React + TypeScript + Vite
+# Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> My professional personal portfolio website, including a rundown of my technical experience, personal projects, achievements, and contact methods
 
-Currently, two official plugins are available:
+![My website's home page](home.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What is this?
 
-## React Compiler
+This is my personal portfolio website, built with Vite + React + Typescript. The design of the site reflects my clean and minimalistic aesthetic, featuring light tones, a single-page layout, a solid color background, and subtle animations that make the experience smoother without being too "in your face". The ultimate goal was to create a space that is both professional and personal, showing others who I am and what I do.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Why did I make this?
 
-## Expanding the ESLint configuration
+Having a personal website is a great way to show employers more about myself as a person, beyond just a resume. As I prepare to seek internships and coops throughout my university years, this portfolio will allow me to demonstrate my creativity alongside my ability to ship products from start to finish. In the future, I hope to add an interactive CLI mode, where users type in commands to navigate to different sections of the site, showcasing my love for fun, intuitive UXs.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+But beyond simply impressing others, there's also something deeply satisfying and rewarding about having a clean, organized space that showcases my projects, achievements, and overall personal growth. To me, this website also serves as documentation of my ongoing journey as a developer, and it's something I can look back on to see how far I've come, and how much further I have to go.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## How to use it
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+Visit yichenxiao.vercel.app to view my website. Note that the CLI mode is not yet built, and leads to a "coming soon" page for now.
