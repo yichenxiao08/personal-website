@@ -13,26 +13,35 @@ export default function RailNav() {
   const [currentSection, setCurrentSection] = useState<string>("home");
 
   useEffect(() => {
+    const ratios: Record<string, number> = {};
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          console.log(entry.target.id, entry.isIntersecting);
-
-          if (entry.isIntersecting) {
-            setCurrentSection(entry.target.id);
-          }
+          ratios[entry.target.id] = entry.intersectionRatio;
         });
+
+        const mostVisible = Object.entries(ratios).reduce((a, b) =>
+          b[1] > a[1] ? b : a,
+        );
+
+        if (mostVisible[1] > 0) {
+          setCurrentSection(mostVisible[0]);
+        }
       },
       {
         rootMargin: "-45% 0px -45% 0px",
+        threshold: [0, 0.25, 0.5, 0.75, 1],
       },
     );
+
     sections.forEach(({ id }) => {
       const element = document.getElementById(id);
       if (element) observer.observe(element);
     });
+
     return () => observer.disconnect();
-  });
+  }, []);
 
   const handleClick = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });

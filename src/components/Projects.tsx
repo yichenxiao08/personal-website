@@ -98,7 +98,7 @@ export default function Projects() {
               <div className="card-links">
                 {project.links?.map((link) => {
                   return (
-                    <a href={link.url} target="_blank">
+                    <a key={link.url} href={link.url} target="_blank">
                       {link.text}
                     </a>
                   );

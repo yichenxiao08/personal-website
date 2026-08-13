@@ -25,7 +25,9 @@ export default function Contact(){
       </ul>
       <div className="footer">
         <span>Ready to try out CLI mode?</span>
-        <button>Switch to CLI mode</button>
+        <a className="cli-button" href="/cli">
+          Switch to CLI mode
+        </a>
       </div>
     </section>
   );

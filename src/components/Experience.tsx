@@ -48,7 +48,7 @@ export default function Experience() {
       <ul className="experience-list">
         {experiences.map((experience) => {
           return (
-            <li className="experience-entry" id={experience.title}>
+            <li className="experience-entry" key={experience.title}>
               <img src={experience.logoUrl} />
               <div className="description">
                 <h3>{experience.title}</h3>
